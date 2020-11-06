@@ -8,32 +8,25 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#ea7258",
-          "background": "#2f92d3"
+          "foreground": "#95ffa4",
+          "background": "#A25AA7"
         },
         {
           "type": "os",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#26c6da",
-          "background": "#546e7a"
+          "foreground": "#ea7258",
+          "background": "#0077c2"
         },
         {
           "type": "shell",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#ffffff",
-          "background": "#0077c2",
+          "foreground": "#100e23",
+          "background": "#ea7258",
           "properties": {
             "prefix": " \ufcb5 "
           }
-        },
-        {
-          "type": "session",
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
-          "foreground": "#100e23",
-          "background": "#ea7258"
         },
         {
           "type": "path",
