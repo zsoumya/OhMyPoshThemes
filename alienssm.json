@@ -8,24 +8,21 @@
         {
           "type": "session",
           "style": "diamond",
-          "foreground": "#000000",
-          "background": "#26e396",
+          "foreground": "#ffffff",
+          "background": "#C678DD",
           "leading_diamond": "\ue0b6",
-          "trailing_diamond": "\ue0b0",
+          "trailing_diamond": "\uE0B0",
           "properties": {
-            "postfix": " "
+            "postfix": " ",
+            "prefix": " "
           }
         },
         {
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#ffffff",
-          "background": "#ff479c",
-          "properties": {
-			"prefix": " ",
-            "postfix": " "
-          }
+          "foreground": "#000000",
+          "background": "#95FFA4"
         },
         {
           "type": "path",
@@ -35,10 +32,7 @@
           "background": "#61afef",
           "properties": {
             "prefix": " \ue5ff ",
-            "style": "folder",
-            "ignore_folders": [
-              "/super/secret/project"
-            ]
+            "style": "full"
           }
         },
         {
@@ -46,7 +40,7 @@
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "foreground": "#193549",
-          "background": "#ffeb3b"
+          "background": "#ECD80F"
         }
       ]
     },
@@ -55,11 +49,28 @@
       "alignment": "right",
       "segments": [
         {
-          "type": "time",
-          "style": "plain",
+          "type": "text",
           "foreground": "#ffb300",
           "properties": {
-            "time_format": "15:04:05"
+            "text": "\ue0c2"
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#000000",
+          "background": "#ffb300",
+          "properties": {
+            "time_format": "15:04:05",
+            "postfix": " "
+          }
+        },
+        {
+          "type": "text",
+          "foreground": "#ffb300",
+          "properties": {
+            "text": "\ue0c0",
+            "prefix": ""
           }
         }
       ]
