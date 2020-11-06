@@ -12,6 +12,23 @@
           "background": "#2f92d3"
         },
         {
+          "type": "os",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#26C6DA",
+          "background": "#546E7A"
+        },
+        {
+          "type": "shell",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#0077c2",
+          "properties": {
+            "prefix": " \uFCB5 "
+          }
+        },
+        {
           "type": "session",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
